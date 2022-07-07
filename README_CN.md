@@ -63,16 +63,7 @@ bash scripts/run_eval.sh [resnetv2_50|resnetv2_101|resnetv2_152] [cifar10|cifar1
 ```
 
 
-```shell
-# 分布式训练
-用法：
 
-# 单机训练
-用法：
-
-# 运行评估示例
-用法：
-```
 
 # 脚本说明
 
@@ -141,13 +132,7 @@ bash scripts/run_standalone_train.sh [resnetv2_50|resnetv2_101|resnetv2_152] [ci
 具体操作，参见[hccn_tools](https://gitee.com/mindspore/models/tree/master/utils/hccl_tools)中的说明。
 
 
-```shell
-# 分布式训练
-用法：
 
-# 单机训练
-用法：
-```
 
 ## 结果
 
@@ -176,11 +161,6 @@ epoch time: 4737.401 ms, per step time: 24.166 ms
 bash scripts/run_eval.sh [resnetv2_50|resnetv2_101|resnetv2_152] [cifar10|cifar100] [DATASET_PATH] [CHECKPOINT_PATH]
 ```
 
-
-```shell
-# 运行评估示例
-用法：
-```
 
 ## 结果
 
